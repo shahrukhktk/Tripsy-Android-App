@@ -11,7 +11,11 @@ class App : TravelApp() {
         tabs = setOf(
             Tab.Flights,
             Tab.Hotels,
-//            Tab.RentalCars("Cars program link"),
+            Tab.Browser(
+                url = "https://tripsy.lk/mobilepage/",
+                iconRes = R.drawable.ic_announce,
+                labelRes = R.string.informationtext
+            ),
             Tab.AppInfo
         )
     )

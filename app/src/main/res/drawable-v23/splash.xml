@@ -1,6 +1,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
   <item android:drawable="@color/white"/>
   <item
-      android:drawable="@mipmap/ic_launcher"
+      android:drawable="@drawable/tripsylogo"
+      android:height="120dp"
+      android:width="300dp"
       android:gravity="center"/>
 </layer-list>

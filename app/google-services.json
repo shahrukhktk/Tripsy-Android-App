@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409136602916",
+    "firebase_url": "https://tripsy-ce27c.firebaseio.com",
+    "project_id": "tripsy-ce27c",
+    "storage_bucket": "tripsy-ce27c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409136602916:android:5accefa4d0f9a266d21db1",
+        "android_client_info": {
+          "package_name": "com.travelpayouts.travel.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409136602916-pa6531l7dvfgu7lqmmqble0u7uumjms0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHK6RVCh35ZX4Oo82JQsXpOM7AE1RJPWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409136602916-pa6531l7dvfgu7lqmmqble0u7uumjms0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

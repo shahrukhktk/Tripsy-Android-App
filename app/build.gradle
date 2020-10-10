@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-//apply plugin: 'com.google.gms.google-services'
-//apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     compileSdkVersion 29
@@ -16,10 +16,10 @@ android {
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         manifestPlaceholders = [
-                GOOGLE_API_KEY: ""
+                GOOGLE_API_KEY: "AIzaSyCRQ7_EcZLhqkpZvuRaTdmVKE3UD-87wJk"
         ]
 
-        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
     }
 
     buildTypes {
@@ -41,5 +41,8 @@ android {
 }
 
 dependencies {
-    implementation ('com.travelpayouts:travel-sdk:1.2.2')
+    implementation('com.travelpayouts:travel-sdk:1.2.2')
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.2'
+    implementation 'com.google.firebase:firebase-analytics:17.6.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
 }
